@@ -21,5 +21,8 @@
   height: 10px;
   background: blue;
   transition: all 500ms;
-  
+}
+.content{
+  position: relative;
+  margin-top: 60px;
 }
