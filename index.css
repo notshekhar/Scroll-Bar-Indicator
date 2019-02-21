@@ -1,0 +1,25 @@
+.fixedheader{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  color: white;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.9), 4px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+.progress{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0%;
+  height: 10px;
+  background: blue;
+  transition: all 500ms;
+  
+}
